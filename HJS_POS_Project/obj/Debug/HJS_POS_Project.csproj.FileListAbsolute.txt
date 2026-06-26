@@ -25,3 +25,4 @@ D:\HJS_Project\C#_work\source\repos\HJS_POS_Project\HJS_POS_Project\obj\Debug\HJ
 D:\HJS_Project\C#_work\source\repos\HJS_POS_Project\HJS_POS_Project\obj\Debug\HJS_POS_Project.exe
 D:\HJS_Project\C#_work\source\repos\HJS_POS_Project\HJS_POS_Project\obj\Debug\HJS_POS_Project.pdb
 D:\HJS_Project\C#_work\source\repos\HJS_POS_Project\HJS_POS_Project\obj\Debug\HJS_POS_Project.exe.config
+D:\HJS_Project\C#_work\source\repos\HJS_POS_Project\HJS_POS_Project\obj\Debug\GeneratedInternalTypeHelper.g.cs

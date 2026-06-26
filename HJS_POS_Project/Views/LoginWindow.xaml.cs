@@ -1,4 +1,5 @@
 ﻿using HJS_POS_Project.Database;
+using HJS_POS_Project.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -28,36 +29,12 @@ namespace HJS_POS_Project.Views
 
         private void btnLogin_Click(object sender, RoutedEventArgs e)
         {
-            string username = txtUsername.Text;
-            string password = txtPassword.Password;
-
-            // 입력값 검증
-            if (string.IsNullOrEmpty(username) || string.IsNullOrEmpty(password))
+            // PasswordBox 값을 ViewModel에 전달
+            var vm = DataContext as LoginViewModel;
+            if (vm != null)
             {
-                MessageBox.Show("아이디와 비밀번호를 입력해주세요.", "알림");
-                return;
-            }
-
-            // DB에서 사용자 조회
-            string query = "SELECT * FROM Users WHERE Username = @Username AND Password = @Password";
-            System.Data.SqlClient.SqlParameter[] parameters =
-            {
-                new System.Data.SqlClient.SqlParameter("@Username", username),
-                new System.Data.SqlClient.SqlParameter("@Password", password)
-            };
-
-            DataTable dt = DBHelper.GetData(query, parameters);
-
-            if (dt.Rows.Count > 0)
-            {
-                // 로그인 성공
-                MainWindow mainWindow = new MainWindow();
-                mainWindow.Show();
-                this.Close();
-            }
-            else
-            {
-                MessageBox.Show("아이디 또는 비밀번호가 틀렸습니다.", "로그인 실패");
+                vm.Password = txtPassword.Password;
+                vm.Login();
             }
         }
     }
