@@ -1,12 +1,44 @@
 ﻿<Window x:Class="HJS_POS_Project.Views.LoginWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:HJS_POS_Project.Views"
-        mc:Ignorable="d"
-        Title="LoginWindow" Height="450" Width="800">
+        Title="POS 로그인" Height="300" Width="400"
+        WindowStartupLocation="CenterScreen"
+        ResizeMode="NoResize">
+
     <Grid>
-        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="80"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- 상단 타이틀 -->
+        <Rectangle Grid.Row="0" Fill="#1E2761"/>
+        <TextBlock Grid.Row="0" Text="POS 시스템" 
+                   FontSize="24" FontWeight="Bold" 
+                   Foreground="White" 
+                   HorizontalAlignment="Center" 
+                   VerticalAlignment="Center"/>
+
+        <!-- 로그인 폼 -->
+        <StackPanel Grid.Row="1" 
+                    VerticalAlignment="Center" 
+                    Margin="40,0">
+
+            <TextBlock Text="아이디" FontSize="13" Margin="0,0,0,5"/>
+            <TextBox x:Name="txtUsername" 
+                     Height="35" FontSize="14" 
+                     Padding="8,0"/>
+
+            <TextBlock Text="비밀번호" FontSize="13" Margin="0,15,0,5"/>
+            <PasswordBox x:Name="txtPassword" 
+                         Height="35" FontSize="14" 
+                         Padding="8,0"/>
+
+            <Button Content="로그인" 
+                    Height="40" Margin="0,20,0,0"
+                    FontSize="15" FontWeight="Bold"
+                    Background="#1E2761" Foreground="White"
+                    Click="btnLogin_Click"/>
+        </StackPanel>
     </Grid>
 </Window>
