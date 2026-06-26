@@ -90,7 +90,14 @@ namespace HJS_POS_Project.ViewModels
             DeleteCommand = new RelayCommand(DeleteProduct);
 
             // 초기 상품 목록 로드
-            LoadProducts();
+            try
+            {
+                LoadProducts();
+            }
+            catch
+            {
+                // DB 연결 안될 때 무시
+            }
         }
 
         // 상품 목록 불러오기
