@@ -1,0 +1,303 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\HJS_Project\\C#_work\\source\\repos\\HJS_POS_Project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DD940097-560F-46E6-9D11-CC3BF8DE407E}|HJS_POS_Project\\HJS_POS_Project.csproj|d:\\hjs_project\\c#_work\\source\\repos\\hjs_pos_project\\hjs_pos_project\\views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD940097-560F-46E6-9D11-CC3BF8DE407E}|HJS_POS_Project\\HJS_POS_Project.csproj|solutionrelative:hjs_pos_project\\views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD940097-560F-46E6-9D11-CC3BF8DE407E}|HJS_POS_Project\\HJS_POS_Project.csproj|d:\\hjs_project\\c#_work\\source\\repos\\hjs_pos_project\\hjs_pos_project\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD940097-560F-46E6-9D11-CC3BF8DE407E}|HJS_POS_Project\\HJS_POS_Project.csproj|solutionrelative:hjs_pos_project\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD940097-560F-46E6-9D11-CC3BF8DE407E}|HJS_POS_Project\\HJS_POS_Project.csproj|d:\\hjs_project\\c#_work\\source\\repos\\hjs_pos_project\\hjs_pos_project\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DD940097-560F-46E6-9D11-CC3BF8DE407E}|HJS_POS_Project\\HJS_POS_Project.csproj|solutionrelative:hjs_pos_project\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD940097-560F-46E6-9D11-CC3BF8DE407E}|HJS_POS_Project\\HJS_POS_Project.csproj|d:\\hjs_project\\c#_work\\source\\repos\\hjs_pos_project\\hjs_pos_project\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{DD940097-560F-46E6-9D11-CC3BF8DE407E}|HJS_POS_Project\\HJS_POS_Project.csproj|solutionrelative:hjs_pos_project\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD940097-560F-46E6-9D11-CC3BF8DE407E}|HJS_POS_Project\\HJS_POS_Project.csproj|d:\\hjs_project\\c#_work\\source\\repos\\hjs_pos_project\\hjs_pos_project\\database\\dbhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD940097-560F-46E6-9D11-CC3BF8DE407E}|HJS_POS_Project\\HJS_POS_Project.csproj|solutionrelative:hjs_pos_project\\database\\dbhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD940097-560F-46E6-9D11-CC3BF8DE407E}|HJS_POS_Project\\HJS_POS_Project.csproj|d:\\hjs_project\\c#_work\\source\\repos\\hjs_pos_project\\hjs_pos_project\\views\\statisticsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DD940097-560F-46E6-9D11-CC3BF8DE407E}|HJS_POS_Project\\HJS_POS_Project.csproj|solutionrelative:hjs_pos_project\\views\\statisticsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD940097-560F-46E6-9D11-CC3BF8DE407E}|HJS_POS_Project\\HJS_POS_Project.csproj|d:\\hjs_project\\c#_work\\source\\repos\\hjs_pos_project\\hjs_pos_project\\views\\salesview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DD940097-560F-46E6-9D11-CC3BF8DE407E}|HJS_POS_Project\\HJS_POS_Project.csproj|solutionrelative:hjs_pos_project\\views\\salesview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD940097-560F-46E6-9D11-CC3BF8DE407E}|HJS_POS_Project\\HJS_POS_Project.csproj|d:\\hjs_project\\c#_work\\source\\repos\\hjs_pos_project\\hjs_pos_project\\views\\productview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DD940097-560F-46E6-9D11-CC3BF8DE407E}|HJS_POS_Project\\HJS_POS_Project.csproj|solutionrelative:hjs_pos_project\\views\\productview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD940097-560F-46E6-9D11-CC3BF8DE407E}|HJS_POS_Project\\HJS_POS_Project.csproj|d:\\hjs_project\\c#_work\\source\\repos\\hjs_pos_project\\hjs_pos_project\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DD940097-560F-46E6-9D11-CC3BF8DE407E}|HJS_POS_Project\\HJS_POS_Project.csproj|solutionrelative:hjs_pos_project\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD940097-560F-46E6-9D11-CC3BF8DE407E}|HJS_POS_Project\\HJS_POS_Project.csproj|d:\\hjs_project\\c#_work\\source\\repos\\hjs_pos_project\\hjs_pos_project\\views\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DD940097-560F-46E6-9D11-CC3BF8DE407E}|HJS_POS_Project\\HJS_POS_Project.csproj|solutionrelative:hjs_pos_project\\views\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD940097-560F-46E6-9D11-CC3BF8DE407E}|HJS_POS_Project\\HJS_POS_Project.csproj|d:\\hjs_project\\c#_work\\source\\repos\\hjs_pos_project\\hjs_pos_project\\viewmodels\\statisticsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD940097-560F-46E6-9D11-CC3BF8DE407E}|HJS_POS_Project\\HJS_POS_Project.csproj|solutionrelative:hjs_pos_project\\viewmodels\\statisticsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD940097-560F-46E6-9D11-CC3BF8DE407E}|HJS_POS_Project\\HJS_POS_Project.csproj|d:\\hjs_project\\c#_work\\source\\repos\\hjs_pos_project\\hjs_pos_project\\viewmodels\\salesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD940097-560F-46E6-9D11-CC3BF8DE407E}|HJS_POS_Project\\HJS_POS_Project.csproj|solutionrelative:hjs_pos_project\\viewmodels\\salesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD940097-560F-46E6-9D11-CC3BF8DE407E}|HJS_POS_Project\\HJS_POS_Project.csproj|d:\\hjs_project\\c#_work\\source\\repos\\hjs_pos_project\\hjs_pos_project\\viewmodels\\productviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD940097-560F-46E6-9D11-CC3BF8DE407E}|HJS_POS_Project\\HJS_POS_Project.csproj|solutionrelative:hjs_pos_project\\viewmodels\\productviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD940097-560F-46E6-9D11-CC3BF8DE407E}|HJS_POS_Project\\HJS_POS_Project.csproj|d:\\hjs_project\\c#_work\\source\\repos\\hjs_pos_project\\hjs_pos_project\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD940097-560F-46E6-9D11-CC3BF8DE407E}|HJS_POS_Project\\HJS_POS_Project.csproj|solutionrelative:hjs_pos_project\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD940097-560F-46E6-9D11-CC3BF8DE407E}|HJS_POS_Project\\HJS_POS_Project.csproj|d:\\hjs_project\\c#_work\\source\\repos\\hjs_pos_project\\hjs_pos_project\\models\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD940097-560F-46E6-9D11-CC3BF8DE407E}|HJS_POS_Project\\HJS_POS_Project.csproj|solutionrelative:hjs_pos_project\\models\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD940097-560F-46E6-9D11-CC3BF8DE407E}|HJS_POS_Project\\HJS_POS_Project.csproj|d:\\hjs_project\\c#_work\\source\\repos\\hjs_pos_project\\hjs_pos_project\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD940097-560F-46E6-9D11-CC3BF8DE407E}|HJS_POS_Project\\HJS_POS_Project.csproj|solutionrelative:hjs_pos_project\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD940097-560F-46E6-9D11-CC3BF8DE407E}|HJS_POS_Project\\HJS_POS_Project.csproj|d:\\hjs_project\\c#_work\\source\\repos\\hjs_pos_project\\hjs_pos_project\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD940097-560F-46E6-9D11-CC3BF8DE407E}|HJS_POS_Project\\HJS_POS_Project.csproj|solutionrelative:hjs_pos_project\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\HJS_Project\\C#_work\\source\\repos\\HJS_POS_Project\\HJS_POS_Project\\Views\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "HJS_POS_Project\\Views\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\HJS_Project\\C#_work\\source\\repos\\HJS_POS_Project\\HJS_POS_Project\\Views\\MainWindow.xaml.cs",
+              "RelativeToolTip": "HJS_POS_Project\\Views\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAYwBYAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-26T01:14:33.661Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\HJS_Project\\C#_work\\source\\repos\\HJS_POS_Project\\HJS_POS_Project\\App.xaml",
+              "RelativeDocumentMoniker": "HJS_POS_Project\\App.xaml",
+              "ToolTip": "D:\\HJS_Project\\C#_work\\source\\repos\\HJS_POS_Project\\HJS_POS_Project\\App.xaml",
+              "RelativeToolTip": "HJS_POS_Project\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-06-26T01:13:51.223Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SalesView.xaml",
+              "DocumentMoniker": "D:\\HJS_Project\\C#_work\\source\\repos\\HJS_POS_Project\\HJS_POS_Project\\Views\\SalesView.xaml",
+              "RelativeDocumentMoniker": "HJS_POS_Project\\Views\\SalesView.xaml",
+              "ToolTip": "D:\\HJS_Project\\C#_work\\source\\repos\\HJS_POS_Project\\HJS_POS_Project\\Views\\SalesView.xaml",
+              "RelativeToolTip": "HJS_POS_Project\\Views\\SalesView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-06-26T00:56:16.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProductView.xaml",
+              "DocumentMoniker": "D:\\HJS_Project\\C#_work\\source\\repos\\HJS_POS_Project\\HJS_POS_Project\\Views\\ProductView.xaml",
+              "RelativeDocumentMoniker": "HJS_POS_Project\\Views\\ProductView.xaml",
+              "ToolTip": "D:\\HJS_Project\\C#_work\\source\\repos\\HJS_POS_Project\\HJS_POS_Project\\Views\\ProductView.xaml",
+              "RelativeToolTip": "HJS_POS_Project\\Views\\ProductView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-06-26T00:55:58.042Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "App.config",
+              "DocumentMoniker": "D:\\HJS_Project\\C#_work\\source\\repos\\HJS_POS_Project\\HJS_POS_Project\\App.config",
+              "RelativeDocumentMoniker": "HJS_POS_Project\\App.config",
+              "ToolTip": "D:\\HJS_Project\\C#_work\\source\\repos\\HJS_POS_Project\\HJS_POS_Project\\App.config",
+              "RelativeToolTip": "HJS_POS_Project\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-06-23T00:47:27.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainViewModel.cs",
+              "DocumentMoniker": "D:\\HJS_Project\\C#_work\\source\\repos\\HJS_POS_Project\\HJS_POS_Project\\ViewModels\\MainViewModel.cs",
+              "RelativeDocumentMoniker": "HJS_POS_Project\\ViewModels\\MainViewModel.cs",
+              "ToolTip": "D:\\HJS_Project\\C#_work\\source\\repos\\HJS_POS_Project\\HJS_POS_Project\\ViewModels\\MainViewModel.cs",
+              "RelativeToolTip": "HJS_POS_Project\\ViewModels\\MainViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-26T00:54:10.768Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "StatisticsView.xaml",
+              "DocumentMoniker": "D:\\HJS_Project\\C#_work\\source\\repos\\HJS_POS_Project\\HJS_POS_Project\\Views\\StatisticsView.xaml",
+              "RelativeDocumentMoniker": "HJS_POS_Project\\Views\\StatisticsView.xaml",
+              "ToolTip": "D:\\HJS_Project\\C#_work\\source\\repos\\HJS_POS_Project\\HJS_POS_Project\\Views\\StatisticsView.xaml",
+              "RelativeToolTip": "HJS_POS_Project\\Views\\StatisticsView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-06-26T00:56:29.227Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DBHelper.cs",
+              "DocumentMoniker": "D:\\HJS_Project\\C#_work\\source\\repos\\HJS_POS_Project\\HJS_POS_Project\\Database\\DBHelper.cs",
+              "RelativeDocumentMoniker": "HJS_POS_Project\\Database\\DBHelper.cs",
+              "ToolTip": "D:\\HJS_Project\\C#_work\\source\\repos\\HJS_POS_Project\\HJS_POS_Project\\Database\\DBHelper.cs",
+              "RelativeToolTip": "HJS_POS_Project\\Database\\DBHelper.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAADIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-26T00:56:43.921Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\HJS_Project\\C#_work\\source\\repos\\HJS_POS_Project\\HJS_POS_Project\\Views\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "HJS_POS_Project\\Views\\MainWindow.xaml",
+              "ToolTip": "D:\\HJS_Project\\C#_work\\source\\repos\\HJS_POS_Project\\HJS_POS_Project\\Views\\MainWindow.xaml",
+              "RelativeToolTip": "HJS_POS_Project\\Views\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-06-26T00:55:44.625Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LoginWindow.xaml",
+              "DocumentMoniker": "D:\\HJS_Project\\C#_work\\source\\repos\\HJS_POS_Project\\HJS_POS_Project\\Views\\LoginWindow.xaml",
+              "RelativeDocumentMoniker": "HJS_POS_Project\\Views\\LoginWindow.xaml",
+              "ToolTip": "D:\\HJS_Project\\C#_work\\source\\repos\\HJS_POS_Project\\HJS_POS_Project\\Views\\LoginWindow.xaml",
+              "RelativeToolTip": "HJS_POS_Project\\Views\\LoginWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-06-26T00:55:29.898Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "StatisticsViewModel.cs",
+              "DocumentMoniker": "D:\\HJS_Project\\C#_work\\source\\repos\\HJS_POS_Project\\HJS_POS_Project\\ViewModels\\StatisticsViewModel.cs",
+              "RelativeDocumentMoniker": "HJS_POS_Project\\ViewModels\\StatisticsViewModel.cs",
+              "ToolTip": "D:\\HJS_Project\\C#_work\\source\\repos\\HJS_POS_Project\\HJS_POS_Project\\ViewModels\\StatisticsViewModel.cs",
+              "RelativeToolTip": "HJS_POS_Project\\ViewModels\\StatisticsViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-26T00:55:02.103Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SalesViewModel.cs",
+              "DocumentMoniker": "D:\\HJS_Project\\C#_work\\source\\repos\\HJS_POS_Project\\HJS_POS_Project\\ViewModels\\SalesViewModel.cs",
+              "RelativeDocumentMoniker": "HJS_POS_Project\\ViewModels\\SalesViewModel.cs",
+              "ToolTip": "D:\\HJS_Project\\C#_work\\source\\repos\\HJS_POS_Project\\HJS_POS_Project\\ViewModels\\SalesViewModel.cs",
+              "RelativeToolTip": "HJS_POS_Project\\ViewModels\\SalesViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-26T00:54:39.808Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ProductViewModel.cs",
+              "DocumentMoniker": "D:\\HJS_Project\\C#_work\\source\\repos\\HJS_POS_Project\\HJS_POS_Project\\ViewModels\\ProductViewModel.cs",
+              "RelativeDocumentMoniker": "HJS_POS_Project\\ViewModels\\ProductViewModel.cs",
+              "ToolTip": "D:\\HJS_Project\\C#_work\\source\\repos\\HJS_POS_Project\\HJS_POS_Project\\ViewModels\\ProductViewModel.cs",
+              "RelativeToolTip": "HJS_POS_Project\\ViewModels\\ProductViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-26T00:54:24.913Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\HJS_Project\\C#_work\\source\\repos\\HJS_POS_Project\\HJS_POS_Project\\Models\\User.cs",
+              "RelativeDocumentMoniker": "HJS_POS_Project\\Models\\User.cs",
+              "ToolTip": "D:\\HJS_Project\\C#_work\\source\\repos\\HJS_POS_Project\\HJS_POS_Project\\Models\\User.cs",
+              "RelativeToolTip": "HJS_POS_Project\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-26T00:53:33.04Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "OrderDetail.cs",
+              "DocumentMoniker": "D:\\HJS_Project\\C#_work\\source\\repos\\HJS_POS_Project\\HJS_POS_Project\\Models\\OrderDetail.cs",
+              "RelativeDocumentMoniker": "HJS_POS_Project\\Models\\OrderDetail.cs",
+              "ToolTip": "D:\\HJS_Project\\C#_work\\source\\repos\\HJS_POS_Project\\HJS_POS_Project\\Models\\OrderDetail.cs",
+              "RelativeToolTip": "HJS_POS_Project\\Models\\OrderDetail.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-26T00:53:24.041Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Order.cs",
+              "DocumentMoniker": "D:\\HJS_Project\\C#_work\\source\\repos\\HJS_POS_Project\\HJS_POS_Project\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "HJS_POS_Project\\Models\\Order.cs",
+              "ToolTip": "D:\\HJS_Project\\C#_work\\source\\repos\\HJS_POS_Project\\HJS_POS_Project\\Models\\Order.cs",
+              "RelativeToolTip": "HJS_POS_Project\\Models\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-26T00:53:11.692Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\HJS_Project\\C#_work\\source\\repos\\HJS_POS_Project\\HJS_POS_Project\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "HJS_POS_Project\\Models\\Product.cs",
+              "ToolTip": "D:\\HJS_Project\\C#_work\\source\\repos\\HJS_POS_Project\\HJS_POS_Project\\Models\\Product.cs",
+              "RelativeToolTip": "HJS_POS_Project\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-26T00:51:55.419Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
