@@ -1,4 +1,5 @@
-﻿using HJS_POS_Project.Views;
+﻿using HJS_POS_Project.Database;
+using HJS_POS_Project.Views;
 using System.Windows;
 using System.Windows.Input;
 
@@ -23,9 +24,15 @@ namespace HJS_POS_Project.ViewModels
             StatisticsCommand = new RelayCommand(OpenStatistics);
         }
 
-        // 상품 관리 화면 열기
+        // 상품 관리 화면 열기 (관리자만 접근 가능)
         private void OpenProduct()
         {
+            if (!CurrentUser.IsAdmin)
+            {
+                MessageBox.Show("관리자 권한이 필요합니다.", "접근 제한");
+                return;
+            }
+
             ProductView productView = new ProductView();
             productView.Show();
         }
@@ -37,9 +44,15 @@ namespace HJS_POS_Project.ViewModels
             salesView.Show();
         }
 
-        // 매출 통계 화면 열기
+        // 매출 통계 화면 열기 (관리자만 접근 가능)
         private void OpenStatistics()
         {
+            if (!CurrentUser.IsAdmin)
+            {
+                MessageBox.Show("관리자 권한이 필요합니다.", "접근 제한");
+                return;
+            }
+
             StatisticsView statisticsView = new StatisticsView();
             statisticsView.Show();
         }

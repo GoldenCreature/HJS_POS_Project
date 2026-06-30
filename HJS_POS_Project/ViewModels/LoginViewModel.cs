@@ -68,7 +68,10 @@ namespace HJS_POS_Project.ViewModels
 
             if (dt.Rows.Count > 0)
             {
-                // 로그인 성공
+                // 로그인 성공 - 사용자 정보를 CurrentUser에 저장
+                CurrentUser.Username = dt.Rows[0]["Username"].ToString();
+                CurrentUser.Role = dt.Rows[0]["Role"].ToString();
+
                 MainWindow mainWindow = new MainWindow();
                 mainWindow.Show();
                 Application.Current.Windows[0].Close();

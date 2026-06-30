@@ -30,6 +30,7 @@
                 </Grid.ColumnDefinitions>
                 <TextBox Grid.Column="0" Height="35" FontSize="13"
                          Padding="8,0" Margin="0,0,8,0"
+                         VerticalContentAlignment="Center"
                          Text="{Binding SearchKeyword, UpdateSourceTrigger=PropertyChanged}"
                          Tag="상품명 검색"/>
                 <Button Grid.Column="1" Content="검색" Height="35"
@@ -89,18 +90,22 @@
 
                 <TextBlock Text="상품명" FontSize="12" Margin="0,0,0,4"/>
                 <TextBox Height="33" FontSize="13" Padding="8,0" Margin="0,0,0,12"
+                         VerticalContentAlignment="Center"
                          Text="{Binding InputName, UpdateSourceTrigger=PropertyChanged}"/>
 
                 <TextBlock Text="카테고리" FontSize="12" Margin="0,0,0,4"/>
                 <TextBox Height="33" FontSize="13" Padding="8,0" Margin="0,0,0,12"
+                         VerticalContentAlignment="Center"
                          Text="{Binding InputCategory, UpdateSourceTrigger=PropertyChanged}"/>
 
                 <TextBlock Text="단가" FontSize="12" Margin="0,0,0,4"/>
                 <TextBox Height="33" FontSize="13" Padding="8,0" Margin="0,0,0,12"
+                         VerticalContentAlignment="Center"
                          Text="{Binding InputPrice, UpdateSourceTrigger=PropertyChanged}"/>
 
                 <TextBlock Text="재고 수량" FontSize="12" Margin="0,0,0,4"/>
                 <TextBox Height="33" FontSize="13" Padding="8,0" Margin="0,0,0,12"
+                         VerticalContentAlignment="Center"
                          Text="{Binding InputStock, UpdateSourceTrigger=PropertyChanged}"/>
 
             </StackPanel>

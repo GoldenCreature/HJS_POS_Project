@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-D:\HJS_Project\C#_work\source\repos\HJS_POS_Project\HJS_POS_Project\obj\Debug\
+C:\Users\User\Documents\GitHub\HJS_POS_Project\HJS_POS_Project\obj\Debug\
 HJS_POS_Project
 none
 false
 DEBUG;TRACE
-D:\HJS_Project\C#_work\source\repos\HJS_POS_Project\HJS_POS_Project\App.xaml
+C:\Users\User\Documents\GitHub\HJS_POS_Project\HJS_POS_Project\App.xaml
 5-24220105
 
-21173665821
-20-534651176
+22-1121934904
+20-460910848
 Views\LoginWindow.xaml;Views\MainWindow.xaml;Views\ProductView.xaml;Views\SalesView.xaml;Views\StatisticsView.xaml;
 
 False

@@ -60,3 +60,9 @@ D:\HJS_Project\C#_work\source\repos\HJS_POS_Project\HJS_POS_Project\bin\Debug\Ox
 D:\HJS_Project\C#_work\source\repos\HJS_POS_Project\HJS_POS_Project\bin\Debug\OxyPlot.Wpf.xml
 D:\HJS_Project\C#_work\source\repos\HJS_POS_Project\HJS_POS_Project\bin\Debug\OxyPlot.Wpf.Shared.xml
 D:\HJS_Project\C#_work\source\repos\HJS_POS_Project\HJS_POS_Project\obj\Debug\HJS_POS_Project.exe.config
+C:\Users\User\Documents\GitHub\HJS_POS_Project\HJS_POS_Project\bin\Debug\OxyPlot.dll
+C:\Users\User\Documents\GitHub\HJS_POS_Project\HJS_POS_Project\bin\Debug\OxyPlot.Wpf.dll
+C:\Users\User\Documents\GitHub\HJS_POS_Project\HJS_POS_Project\bin\Debug\OxyPlot.Wpf.Shared.dll
+C:\Users\User\Documents\GitHub\HJS_POS_Project\HJS_POS_Project\bin\Debug\OxyPlot.xml
+C:\Users\User\Documents\GitHub\HJS_POS_Project\HJS_POS_Project\bin\Debug\OxyPlot.Wpf.xml
+C:\Users\User\Documents\GitHub\HJS_POS_Project\HJS_POS_Project\bin\Debug\OxyPlot.Wpf.Shared.xml
