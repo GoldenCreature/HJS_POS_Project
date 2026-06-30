@@ -66,3 +66,5 @@ C:\Users\User\Documents\GitHub\HJS_POS_Project\HJS_POS_Project\bin\Debug\OxyPlot
 C:\Users\User\Documents\GitHub\HJS_POS_Project\HJS_POS_Project\bin\Debug\OxyPlot.Wpf.xml
 C:\Users\User\Documents\GitHub\HJS_POS_Project\HJS_POS_Project\bin\Debug\OxyPlot.Wpf.Shared.xml
 C:\Users\User\Documents\GitHub\HJS_POS_Project\HJS_POS_Project\obj\Debug\HJS_POS_Project.exe.config
+C:\Users\User\Documents\GitHub\HJS_POS_Project\HJS_POS_Project\obj\Debug\Views\ReceiptWindow.baml
+C:\Users\User\Documents\GitHub\HJS_POS_Project\HJS_POS_Project\obj\Debug\Views\ReceiptWindow.g.cs

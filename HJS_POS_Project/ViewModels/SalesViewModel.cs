@@ -1,6 +1,8 @@
 ﻿using HJS_POS_Project.Database;
 using HJS_POS_Project.Models;
+using HJS_POS_Project.Views;
 using System;
+using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Data;
 using System.Data.SqlClient;
@@ -310,7 +312,12 @@ namespace HJS_POS_Project.ViewModels
                 DBHelper.ExecuteQuery(stockQuery, stockParams);
             }
 
-            MessageBox.Show($"결제 완료!\n총 금액: {TotalAmount:N0}원", "결제 완료");
+            //MessageBox.Show($"결제 완료!\n총 금액: {TotalAmount:N0}원", "결제 완료");
+
+            // 영수증 창 띄우기
+            ReceiptWindow receiptWindow = new ReceiptWindow();
+            receiptWindow.LoadReceipt(new List<Product>(CartList), TotalAmount, SelectedPaymentType);
+            receiptWindow.Show();
             Cancel();
             LoadProducts();  // 상품 목록 새로고침
         }
