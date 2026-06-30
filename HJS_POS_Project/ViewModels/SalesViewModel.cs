@@ -238,6 +238,7 @@ namespace HJS_POS_Project.ViewModels
 
             MessageBox.Show($"결제 완료!\n총 금액: {TotalAmount:N0}원", "결제 완료");
             Cancel();
+            LoadProducts();  // 상품 목록 새로고침
         }
 
         // 장바구니 초기화
