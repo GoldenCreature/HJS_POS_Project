@@ -16,12 +16,16 @@ namespace HJS_POS_Project.ViewModels
         // 매출 통계 커맨드
         public ICommand StatisticsCommand { get; set; }
 
+        // 로그아웃 커맨드
+        public ICommand LogoutCommand { get; set; }
+
         // 생성자
         public MainViewModel()
         {
             ProductCommand = new RelayCommand(OpenProduct);
             SalesCommand = new RelayCommand(OpenSales);
             StatisticsCommand = new RelayCommand(OpenStatistics);
+            LogoutCommand = new RelayCommand(Logout);
         }
 
         // 상품 관리 화면 열기 (관리자만 접근 가능)
@@ -55,6 +59,26 @@ namespace HJS_POS_Project.ViewModels
 
             StatisticsView statisticsView = new StatisticsView();
             statisticsView.Show();
+        }
+
+        // 로그아웃 - 사용자 정보 초기화 후 로그인 창으로 이동
+        private void Logout()
+        {
+            MessageBoxResult result = MessageBox.Show(
+                "로그아웃 하시겠습니까?",
+                "로그아웃 확인",
+                MessageBoxButton.YesNo);
+
+            if (result == MessageBoxResult.Yes)
+            {
+                CurrentUser.Logout();
+
+                LoginWindow loginWindow = new LoginWindow();
+                loginWindow.Show();
+
+                // 현재 MainWindow 닫기
+                Application.Current.Windows[0].Close();
+            }
         }
     }
 }

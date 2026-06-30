@@ -14,5 +14,12 @@
         {
             get { return Role == "admin"; }
         }
+
+        // 로그아웃 시 사용자 정보 초기화
+        public static void Logout()
+        {
+            Username = null;
+            Role = null;
+        }
     }
 }
