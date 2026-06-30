@@ -1,10 +1,13 @@
 ﻿using HJS_POS_Project.Database;
 using HJS_POS_Project.Models;
+using System;
 using System.Collections.ObjectModel;
 using System.Data;
 using System.Data.SqlClient;
+using System.IO;
 using System.Windows;
 using System.Windows.Input;
+using System.Windows.Media.Imaging;
 
 namespace HJS_POS_Project.ViewModels
 {
@@ -31,7 +34,21 @@ namespace HJS_POS_Project.ViewModels
         public Product SelectedProduct
         {
             get { return _selectedProduct; }
-            set { _selectedProduct = value; OnPropertyChanged("SelectedProduct"); }
+            set
+            {
+                _selectedProduct = value;
+                OnPropertyChanged("SelectedProduct");
+
+                // 선택된 상품의 이미지 미리보기 로드
+                if (_selectedProduct != null)
+                {
+                    LoadPreviewImage(_selectedProduct.ImagePath);
+                }
+                else
+                {
+                    PreviewImage = null;
+                }
+            }
         }
 
         // 선택된 장바구니 아이템
@@ -66,6 +83,14 @@ namespace HJS_POS_Project.ViewModels
             set { _totalAmount = value; OnPropertyChanged("TotalAmount"); }
         }
 
+        // 화면에 보여줄 미리보기 이미지
+        private BitmapImage _previewImage;
+        public BitmapImage PreviewImage
+        {
+            get { return _previewImage; }
+            set { _previewImage = value; OnPropertyChanged("PreviewImage"); }
+        }
+
         // 커맨드
         public ICommand SearchCommand { get; set; }
         public ICommand AddToCartCommand { get; set; }
@@ -82,7 +107,46 @@ namespace HJS_POS_Project.ViewModels
             CancelCommand = new RelayCommand(Cancel);
 
             // 초기 상품 목록 로드
-            LoadProducts();
+            try
+            {
+                LoadProducts();
+            }
+            catch
+            {
+                // DB 연결 안될 때 무시
+            }
+        }
+
+        // 미리보기 이미지 로드
+        private void LoadPreviewImage(string relativePath)
+        {
+            if (string.IsNullOrEmpty(relativePath))
+            {
+                PreviewImage = null;
+                return;
+            }
+
+            try
+            {
+                string fullPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, relativePath);
+                if (File.Exists(fullPath))
+                {
+                    BitmapImage bitmap = new BitmapImage();
+                    bitmap.BeginInit();
+                    bitmap.UriSource = new Uri(fullPath, UriKind.Absolute);
+                    bitmap.CacheOption = BitmapCacheOption.OnLoad;
+                    bitmap.EndInit();
+                    PreviewImage = bitmap;
+                }
+                else
+                {
+                    PreviewImage = null;
+                }
+            }
+            catch
+            {
+                PreviewImage = null;
+            }
         }
 
         // 상품 목록 불러오기
@@ -100,7 +164,8 @@ namespace HJS_POS_Project.ViewModels
                     Name = row["Name"].ToString(),
                     Category = row["Category"].ToString(),
                     Price = (decimal)row["Price"],
-                    Stock = (int)row["Stock"]
+                    Stock = (int)row["Stock"],
+                    ImagePath = row["ImagePath"].ToString()
                 });
             }
         }
@@ -124,7 +189,8 @@ namespace HJS_POS_Project.ViewModels
                     Name = row["Name"].ToString(),
                     Category = row["Category"].ToString(),
                     Price = (decimal)row["Price"],
-                    Stock = (int)row["Stock"]
+                    Stock = (int)row["Stock"],
+                    ImagePath = row["ImagePath"].ToString()
                 });
             }
         }
