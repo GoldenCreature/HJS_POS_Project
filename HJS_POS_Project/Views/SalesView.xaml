@@ -68,6 +68,7 @@
                 <RowDefinition Height="45"/>
                 <RowDefinition Height="*"/>
                 <RowDefinition Height="45"/>
+                <RowDefinition Height="35"/>
                 <RowDefinition Height="55"/>
                 <RowDefinition Height="45"/>
             </Grid.RowDefinitions>
@@ -113,8 +114,27 @@
                         Command="{Binding AddToCartCommand}"/>
             </Grid>
 
+            <!-- 결제 수단 선택 -->
+            <Grid Grid.Row="3" Margin="0,5">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <TextBlock Grid.Column="0" Text="결제수단" FontSize="13"
+                           VerticalAlignment="Center" Margin="0,0,8,0"/>
+                <RadioButton x:Name="rbCash" Grid.Column="1" Content="현금" FontSize="13"
+                             GroupName="PaymentType" IsChecked="True"
+                             Checked="PaymentType_Checked"
+                             VerticalAlignment="Center"/>
+                <RadioButton x:Name="rbCard" Grid.Column="2" Content="카드" FontSize="13"
+                             GroupName="PaymentType"
+                             Checked="PaymentType_Checked"
+                             VerticalAlignment="Center"/>
+            </Grid>
+
             <!-- 합계 -->
-            <Border Grid.Row="3" Background="#F0F0F0" Margin="0,5">
+            <Border Grid.Row="4" Background="#F0F0F0" Margin="0,5">
                 <Grid Margin="10,0">
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="*"/>
@@ -132,7 +152,7 @@
             </Border>
 
             <!-- 결제 및 취소 버튼 -->
-            <Grid Grid.Row="4">
+            <Grid Grid.Row="5">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*"/>
                     <ColumnDefinition Width="*"/>

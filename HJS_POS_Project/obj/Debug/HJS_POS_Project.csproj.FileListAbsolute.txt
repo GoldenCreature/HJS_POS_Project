@@ -25,7 +25,6 @@ C:\Users\User\Documents\GitHub\HJS_POS_Project\HJS_POS_Project\bin\Debug\HJS_POS
 C:\Users\User\Documents\GitHub\HJS_POS_Project\HJS_POS_Project\bin\Debug\System.Data.SqlClient.dll
 C:\Users\User\Documents\GitHub\HJS_POS_Project\HJS_POS_Project\bin\Debug\System.Data.SqlClient.xml
 C:\Users\User\Documents\GitHub\HJS_POS_Project\HJS_POS_Project\obj\Debug\HJS_POS_Project.csproj.AssemblyReference.cache
-C:\Users\User\Documents\GitHub\HJS_POS_Project\HJS_POS_Project\obj\Debug\HJS_POS_Project.exe.config
 C:\Users\User\Documents\GitHub\HJS_POS_Project\HJS_POS_Project\obj\Debug\Views\LoginWindow.g.cs
 C:\Users\User\Documents\GitHub\HJS_POS_Project\HJS_POS_Project\obj\Debug\Views\MainWindow.g.cs
 C:\Users\User\Documents\GitHub\HJS_POS_Project\HJS_POS_Project\obj\Debug\Views\ProductView.g.cs

@@ -1,16 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using HJS_POS_Project.ViewModels;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
 
 namespace HJS_POS_Project.Views
 {
@@ -22,6 +12,19 @@ namespace HJS_POS_Project.Views
         public SalesView()
         {
             InitializeComponent();
+        }
+
+        // 결제 수단 라디오버튼 선택 시 ViewModel에 값 전달
+        private void PaymentType_Checked(object sender, RoutedEventArgs e)
+        {
+            var vm = DataContext as SalesViewModel;
+            if (vm == null) return;
+
+            RadioButton rb = sender as RadioButton;
+            if (rb != null)
+            {
+                vm.SelectedPaymentType = rb.Content.ToString();
+            }
         }
     }
 }

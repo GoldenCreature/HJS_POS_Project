@@ -75,6 +75,14 @@ namespace HJS_POS_Project.ViewModels
             set { _quantity = value; OnPropertyChanged("Quantity"); }
         }
 
+        // 결제 수단 (기본값: 현금)
+        private string _selectedPaymentType = "현금";
+        public string SelectedPaymentType
+        {
+            get { return _selectedPaymentType; }
+            set { _selectedPaymentType = value; OnPropertyChanged("SelectedPaymentType"); }
+        }
+
         // 합계 금액
         private decimal _totalAmount;
         public decimal TotalAmount
@@ -268,7 +276,7 @@ namespace HJS_POS_Project.ViewModels
             SqlParameter[] orderParams =
             {
                 new SqlParameter("@TotalAmount", TotalAmount),
-                new SqlParameter("@PaymentType", "현금")
+                new SqlParameter("@PaymentType", SelectedPaymentType)
             };
 
             // 주문 ID 가져오기
@@ -313,6 +321,7 @@ namespace HJS_POS_Project.ViewModels
             CartList.Clear();
             TotalAmount = 0;
             Quantity = "1";
+            SelectedPaymentType = "현금";  
         }
     }
 }
