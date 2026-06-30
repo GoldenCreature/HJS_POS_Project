@@ -2,6 +2,7 @@
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:vm="clr-namespace:HJS_POS_Project.ViewModels"
+        xmlns:oxy="http://oxyplot.org/wpf"
         Title="매출 통계" Height="600" Width="900"
         WindowStartupLocation="CenterScreen">
 
@@ -25,23 +26,33 @@
                 <ColumnDefinition Width="Auto"/>
                 <ColumnDefinition Width="150"/>
                 <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="70"/>
+                <ColumnDefinition Width="70"/>
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
 
             <TextBlock Grid.Column="0" Text="시작일" FontSize="13"
-                       VerticalAlignment="Center" Margin="0,0,8,0"/>
+               VerticalAlignment="Center" Margin="0,0,8,0"/>
             <DatePicker Grid.Column="1" Height="33"
-                        SelectedDate="{Binding StartDate}"/>
+                SelectedDate="{Binding StartDate}"/>
             <TextBlock Grid.Column="2" Text=" ~ " FontSize="13"
-                       VerticalAlignment="Center" Margin="8,0"/>
+               VerticalAlignment="Center" Margin="8,0"/>
             <TextBlock Grid.Column="3" Text="종료일" FontSize="13"
-                       VerticalAlignment="Center" Margin="0,0,8,0"/>
+               VerticalAlignment="Center" Margin="0,0,8,0"/>
             <DatePicker Grid.Column="4" Height="33"
-                        SelectedDate="{Binding EndDate}"/>
+                SelectedDate="{Binding EndDate}"/>
             <Button Grid.Column="5" Content="조회" Height="33"
-                    Margin="8,0,0,0" Padding="15,0"
-                    Background="#1E2761" Foreground="White"
-                    Command="{Binding SearchCommand}"/>
+            Margin="8,0,0,0" Padding="15,0"
+            Background="#1E2761" Foreground="White"
+            Command="{Binding SearchCommand}"/>
+
+            <!-- 일간/월간 전환 버튼 -->
+            <Button Grid.Column="6" Content="일간" Height="33"
+            Margin="15,0,4,0"
+            Command="{Binding DailyModeCommand}"/>
+            <Button Grid.Column="7" Content="월간" Height="33"
+            Margin="0,0,0,0"
+            Command="{Binding MonthlyModeCommand}"/>
         </Grid>
 
         <!-- 중간 차트 영역 -->
@@ -51,8 +62,10 @@
                 <TextBlock Text="조회 버튼을 눌러 매출 데이터를 불러오세요."
                            FontSize="14" Foreground="Gray"
                            HorizontalAlignment="Center"
-                           VerticalAlignment="Center"/>
-                <!-- 나중에 Chart 컨트롤 추가 예정 -->
+                           VerticalAlignment="Center"
+                           Visibility="{Binding IsChartEmpty}"/>
+                <!-- Chart 컨트롤 -->
+                <oxy:PlotView Model="{Binding PlotModel}" Background="Transparent"/>
             </Grid>
         </Border>
 
