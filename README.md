@@ -1,3 +1,6 @@
+<img width="680" height="454" alt="PosMainView" src="https://github.com/user-attachments/assets/b2a06e41-3017-4be1-9890-185dcb699c95" />
+
+
 # 🏪 HJS POS System
 
 > C# WPF + SQL Server 기반 재고·판매 관리 POS 시스템  
