@@ -103,6 +103,8 @@ OrderDetails (주문상세)
 ---
 
 ## 📁 프로젝트 구조
+
+```
 HJS_POS_Project
 ├── Database
 │   ├── DBHelper.cs         # DB 연결 및 쿼리 실행
@@ -131,6 +133,7 @@ HJS_POS_Project
 │   └── StockColorConverter.cs  # 재고 경고 색상 변환
 └── Query
 └── database.sql            # DB 생성 스크립트
+```
 
 ---
 
